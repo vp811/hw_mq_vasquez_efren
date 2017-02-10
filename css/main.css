@@ -1,0 +1,12 @@
+body {
+    background-color: red;
+}
+
+/* -----------Combo--------------------------- */
+
+/* -----------Media Query for larger than 715px and smaller than 960px------- */
+@media screen and (min-width: 715px) and (max-width: 960px) {
+    body {
+        background-color: pink;
+    }
+}
