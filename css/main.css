@@ -1,0 +1,26 @@
+body {
+    background-color: blue;
+}
+
+/* -----------Mobile-First--------------------------- */
+
+/* -----------Media Query for 675px and larger------- */
+@media screen and (min-width: 675px) {
+    body {
+        background-color: green;
+    }
+}
+
+/* -----------Media Query for 999px or larger------- */
+@media screen and (min-width: 999px) {
+    body {
+        background-color: red;
+    }
+}
+
+/* -----------Media Query for 1280px or larger------- */
+@media screen and (min-width: 1280px) {
+    body {
+        background-color: yellow;
+    }
+}
