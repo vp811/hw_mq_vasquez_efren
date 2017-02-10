@@ -1,0 +1,26 @@
+body {
+    background-color: yellow;
+}
+
+/* -----------Desktop-First--------------------------- */
+
+/* -----------Media Query for 1080px or smaller------- */
+@media screen and (max-width: 1080px) {
+    body {
+        background-color: black;
+    }
+}
+
+/* -----------Media Query for 550px or smaller------- */
+@media screen and (max-width: 550px) {
+    body {
+        background-color: purple;
+    }
+}
+
+/* -----------Media Query for 400px or larger------- */
+@media screen and (max-width: 400px) {
+    body {
+        background-color: brown;
+    }
+}
